@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #ffffff;
+   font-weight:200px;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 250px;
+  height: 100%;
+  background:#ffffff;
+  padding: 30px 0px;
+  position: fixed;
+  border-style: solid;
+  border-right: 2px solid rgba(0,0,0,0.05);
+  border-bottom: 0px solid rgba(0,0,0,0.05);
+  border-top: 0px solid rgba(0,0,0,0.05);
+  border-left: 0px solid rgba(0,0,0,0.05);
+  word-wrap: normal;
+  font-size: 12px;
+  color:black;
+}
+
+.wrapper .sidebar .top-section
+{
+  font-size: 12px;
+  display:flex;
+  margin-top:-30px;
+  margin-left: -30px;
+  border-bottom: 2px solid rgba(0,0,0,0.05);
+  margin-bottom:20px;
+}
+
+h2
+{
+  color: #36434D;
+  font-weight: 500;
+  font-size:15px;
+  margin-left:45px;
+  width:70px;
+  margin-top:20px;
+  margin-bottom:-5px;
+}
+
+img
+{
+    margin-top: -32px;
+    margin-left:10px;
+}
+
+.middle1{
+ 
+  margin-left:-60px;
+  padding-left:10px;
+  padding-bottom:1vw;
+  border-bottom: 2px solid rgba(0,0,0,0.05);
+  color: black;
+}
+
+.wrapper .sidebar .middle1 li{
+
+  width:150px;
+  margin-left:22px;
+  margin-top:20px;
+  color: black;
+}
+
+.wrapper .sidebar .middle1 li :hover
+{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding-left: 26px;
+padding-top:10px;
+padding-bottom:10px;
+padding-right:0px;
+
+width: 218px;
+height: 40px;
+margin-left:1000vw;
+background: rgba(251, 78, 11, 0.3);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.wrapper .sidebar .middle1 #btn1 :hover
+{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+padding-left: 10px;
+
+width: 218px;
+height: 40px;
+
+background: rgba(251, 78, 11, 0.3);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.wrapper .sidebar .middle1 #env :hover
+{
+padding-left:10px;
+}
+
+.middle2
+{
+
+  margin-left:0px;
+}
+
+.account
+{
+  margin-top:470px;
+  display:flex;
+  margin-left: -30px;
+  border-top:1px solid rgba(0,0,0,0.15);
+  height:50px;
+}
+
+.ac
+{
+  margin-top:0px;
+  height:60%;
+  width:20%;
+}
+
+.middle2 li
+{
+  margin-top:20px;
+  padding-left:13px;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+
+a{
+  color:#808080;
+  text-decoration:none;
+
+}
+
+.middle1 a
+{
+color:#c0c0c0;
+}
+
+.email
+{
+  color:black;
+}
+.name1
+{
+  color:#c0c0c0;
+}
+
+* :focus
+{
+  outline: none;
+}
+
+#btn1 :hover
+{
+ background-color:"red";
+ width:20vw;
+}
+
+#btn3 :hover
+{
+ background-color:"red";
+}
+
+#over :hover
+{
+ background-color:"red";
+ margin-left:"50vw";
+}

@@ -1,0 +1,10 @@
+        if( inputValue1 == !"undefined" && inputValue2 == !"undefined" )
+        {
+
+
+
+
+        }
+
+        
+
